@@ -15,44 +15,42 @@
     <title>Studio</title>
   </head>
   <body>
-      <header>
-        <div class="container header">
-          <div class="header-wrapper">
-          <a href="index.html" class="without-underline webstudio-logo">
+      <header class="header">
+          <div class="header--wrapper">
+          <a href="index.html" class="header__logo">
               <span class="blue-text">Web</span>Studio
           </a>
-          <nav class="navigation-links-position">
-          <ul class="no-dots-list nav-container">
+          <nav class="navigation">
+          <ul class="navigation__list">
             <li>
-              <a class="nav-links current-page-link" href="index.html">Agencja</a>
+              <a class="navigation__link current-page-link" href="index.html">Agencja</a>
             </li>
             <li>
-              <a class="nav-links" href="portfolio.html">Portfolio</a>
+              <a class="navigation__link" href="portfolio.html">Portfolio</a>
             </li>
             <li>
-              <a class="nav-links" href="index.html">Kontakt</a>
+              <a class="navigation__link" href="index.html">Kontakt</a>
             </li>
           </ul>
           </nav>
-          <ul class="nav-contacts">
+          <ul class="navigation__contacts">
             <li>
-              <a class="contacts" href="emailto:info@devstudio.com">
-                <svg class="header-icon" width="16" height="12">
+              <a class="navigation__email" href="emailto:info@devstudio.com">
+                <svg class="navigation__icon" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
             <li>
-              <a class="contacts" href="tel:+48111111111">
-                <svg class="header-icon" width="10" height="16">
+              <a class="navigation__tel" href="tel:+48111111111">
+                <svg class="navigation__icon" width="10" height="16">
                   <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
                 +48 111 111 111</a>
             </li>
           </ul>
           </div>
-        </div>
       </header>
       <main>
         <div class="title-background picture with-picture">
@@ -444,14 +442,9 @@
           
             </div>
           </form>
-
-
-
-
-
-
         </div>
       </div>
       <script src="./js/modal.js"></script>
+
   </body>
 </html>
