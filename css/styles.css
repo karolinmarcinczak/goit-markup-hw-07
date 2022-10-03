@@ -39,7 +39,7 @@ body {
   padding: 0;
   margin: 0 auto;
 }
-.header--wrapper {
+.header-wrapper {
   display: flex;
   align-items: center; 
 }
@@ -492,7 +492,6 @@ h2 {
   letter-spacing: 3%;
   text-align: center;
 }
-
 
 h4 {
   font-family: "Roboto";
