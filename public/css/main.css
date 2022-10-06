@@ -484,7 +484,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 90px;
+  margin-left: 90px;
 }
 .newsletter__label {
   font-size: 14px;
