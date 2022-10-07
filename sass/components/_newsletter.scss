@@ -1,5 +1,13 @@
 @import "../utils/vars";
 
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 94px;
+}
+
 .newsletter {
     display: flex;
     flex-direction: column;
@@ -68,4 +76,4 @@
         margin-left: 25px;
     }
 }
-
+ 

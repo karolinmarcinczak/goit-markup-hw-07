@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/main.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -246,7 +246,7 @@
           </div>
           <div class="footer__media">
             <h4 class="footer__media-title">Dołącz do nas</h4>
-      
+
             <div class="footer__icon-list">
               <svg class="footer__icon">
                 <use href="./images/icons.svg#icon-instagram-2" width="20" height="20" x="12" y="12"></use>
@@ -262,19 +262,21 @@
               </svg>
             </div>
           </div>
-          <div class="footer__newsletter">
-            <label class="newsletter__label">Zapisz się do newslettera
-              <textarea class="newsletter__email" name="footer-email" placeholder="E-mail" rows="1"></textarea>
-            </label>
-          </div>
-          <div class="newsletter__button-container">
-            <button type="submit" class="newsletter__button">Zapisz się
-              <svg width="24" height="24" class="newsletter__icon">
-                <use xlink:href="./images/form-icons.svg#icon-form-send">
-                </use>
-              </svg>
-            </button>
-          </div>
+          <form class="newsletter-form">
+            <div class="newsletter">
+              <label class="newsletter__label">Zapisz się do newslettera
+                <textarea class="newsletter__email" name="footer-email" placeholder="E-mail" rows="1"></textarea>
+              </label>
+            </div>
+            <div class="signup">
+              <button type="submit" class="signup__button">Zapisz się
+                <svg width="24" height="24" class="signup__icon">
+                  <use xlink:href="./images/form-icons.svg#icon-form-send">
+                  </use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </footer>
 </body>
