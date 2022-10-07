@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link href="css/styles.css " rel="stylesheet" />
+    <link href="public/css/main.min.css " rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -374,9 +374,9 @@
             <textarea class="newsletter__email" name="footer-email" placeholder="E-mail" rows="1"></textarea>
           </label>
         </div>
-        <div class="newsletter__button-container">
-          <button type="submit" class="newsletter__button">Zapisz się
-            <svg width="24" height="24" class="newsletter__icon">
+        <div class="signup">
+          <button type="submit" class="signup__button">Zapisz się
+            <svg width="24" height="24" class="signup__icon">
               <use xlink:href="./images/form-icons.svg#icon-form-send">
               </use>
             </svg>
@@ -401,7 +401,7 @@
               <label for="name-input" class="input__label">Imię</label>
               <div class="input__icon">
                 <input type="text" name="name" class="input__box" id="name-input" required>
-                <svg width="18" height="18" class="input__box--svg">
+                <svg width="18" height="18" class="input__box-svg">
                   <use xlink:href="./images/form-icons.svg#icon-form-person"></use>
                 </svg>
               </div>
@@ -411,7 +411,7 @@
               <label for="phone-input" class="input__label">Telefon</label>
               <div class="input__icon">
                 <input type="tel" name="phone" class="input__box" id="phone-input" title="Fill phone before sending!" required>
-                <svg width="18" height="18" class="input__box--svg">
+                <svg width="18" height="18" class="input__box-svg">
                   <use xlink:href="./images/form-icons.svg#icon-form-phone"></use>
                 </svg>
               </div>
@@ -421,7 +421,7 @@
               <label for="email-input" class="input__label">Email</label>
               <div class="input__icon">
                 <input type="text" name="email" class="input__box" id="email-input">
-                <svg width="18" height="18" class="input__box--svg">
+                <svg width="18" height="18" class="input__box-svg">
                   <use xlink:href="./images/form-icons.svg#icon-form-envelope"></use>
                 </svg>
               </div>

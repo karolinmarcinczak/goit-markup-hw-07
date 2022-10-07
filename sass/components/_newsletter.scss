@@ -25,17 +25,18 @@
         line-height: 1.25;
         letter-spacing: 0.01em;
         background-color: $footer-background;
-    }
+    }   
+}
 
-    &__button-container {
-        margin-left: 12px;
-        margin-bottom: 94;
-        margin-top: 36px;
-        display: flex;
-        justify-content: center;
-        gap: 24px;
-        padding-bottom: 10px;
-    }
+.signup {
+    margin-left: 12px;
+    margin-bottom: 94;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 10px;
+
 
     &__button {
         display: flex;
@@ -58,8 +59,8 @@
         cursor: pointer;
 
         &:hover {
-                transition: $transition;
-            }
+            transition: $transition;
+        }
     }
 
     &__icon {
@@ -67,7 +68,4 @@
         margin-left: 25px;
     }
 }
-
-
-
 

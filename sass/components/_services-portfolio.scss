@@ -38,23 +38,10 @@
         }
 }
 
-.picture {
-    width: 1600px;
-    height: 600px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .with-bg {
     background-color: #2F303A70;
 }
-
-.with-picture {
-    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
-        url('../images/image-background.png');
-}
-
 
 .overlay {
     position: absolute;
@@ -83,8 +70,6 @@
             transition: $transition;
         }
 }
-
-
 
 .label {
     display: block;

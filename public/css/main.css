@@ -106,6 +106,12 @@ body {
 }
 .team__title {
   padding-top: 94px;
+  font-family: "Roboto";
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  text-align: center;
 }
 .team__members {
   display: -webkit-box;
@@ -374,6 +380,19 @@ body {
   margin: auto;
 }
 
+.picture {
+  width: 1600px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.with-picture {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/image-background.png");
+  background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/image-background.png");
+}
+
 /* --- FOOTER ---*/
 .footer {
   background-color: #2F303A;
@@ -506,7 +525,8 @@ body {
   letter-spacing: 0.01em;
   background-color: #2F303A;
 }
-.newsletter__button-container {
+
+.signup {
   margin-left: 12px;
   margin-bottom: 94;
   margin-top: 36px;
@@ -519,7 +539,7 @@ body {
   gap: 24px;
   padding-bottom: 10px;
 }
-.newsletter__button {
+.signup__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -546,11 +566,11 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.newsletter__button:hover {
+.signup__button:hover {
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.newsletter__icon {
+.signup__icon {
   fill: #ffffff;
   margin-left: 25px;
 }
@@ -642,21 +662,8 @@ body {
   margin: 0 0 0 24px;
 }
 
-.picture {
-  width: 1600px;
-  height: 600px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .with-bg {
   background-color: rgba(47, 48, 58, 0.4392156863);
-}
-
-.with-picture {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/image-background.png");
-  background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/image-background.png");
 }
 
 .overlay {
@@ -861,7 +868,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.input__box--svg {
+.input__box-svg {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -872,7 +879,7 @@ body {
   margin-bottom: 14px;
   margin-left: 12px;
 }
-.input__box--svg:hover, .input__box--svg:focus {
+.input__box-svg:hover, .input__box-svg:focus {
   fill: #2196F3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
